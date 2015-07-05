@@ -26,13 +26,13 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_main,container,false);
         String [] datos= {
-                "Lunes - Soleado - 2*/18*",
-                "Martes - Soleado -25/18*",
-                "Miercoles - Soleado -25/18*",
-                "Jueves - Soleado -25/18*",
-                "Viernes - Soleado -25/18*",
-                "Sabado - Soleado -25/18*",
-                "Domingo - Soleado -25/18*"
+                "Lunes - Soleado - 2*/8*",
+                "Martes - Nublado -15*/19*",
+                "Miercoles - Soleado -25*/28*",
+                "Jueves - Nublado -35*/40*",
+                "Viernes -Medio Soleado -30*/38*",
+                "Sabado - Soleado -17*/23*",
+                "Domingo - Medio Nublado -37*/38*"
         };
 
         List<String> lista = new ArrayList<String>(Arrays.asList(datos));
@@ -48,7 +48,7 @@ public class MainActivityFragment extends Fragment {
 
         return rootView;
 
-        
+
     }
 
 
